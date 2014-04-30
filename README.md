@@ -1,7 +1,7 @@
 bokeh-this.js
 =============
 
-#Fast Bokeh-blur in javascript
+##Fast Bokeh-blur in javascript
 
 This is based on the 'StackBlur' image filtering concept but 2-dimensional.
 
@@ -11,7 +11,7 @@ This is based on the 'StackBlur' image filtering concept but 2-dimensional.
 
 3. Bokeh.php demo page uses [dropzone.js](http://www.dropzonejs.com/) for image reading.
 
-#How-to
+##How-to
 
 Call blur_init(canvas,image,width,height,radius):
 
