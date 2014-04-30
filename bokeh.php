@@ -18,8 +18,7 @@
 
 
 
-		<div id="color"></div>
-		<div id="depth"></div>
+		<div id="color"><h1>Click to choose image!</h1></div>
 		<div id="preview" style="display:none;"></div>
 		<script src="js/bokeh-this.js"></script>
 		<script>
@@ -53,6 +52,8 @@
 								blur_init(canvas,myImage,w,h,20);
 
 								myImage.src = canvas.toDataURL("image/png");
+
+								$("#color").find('h1').hide();
 
 							}
 
