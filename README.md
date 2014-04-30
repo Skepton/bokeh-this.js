@@ -24,4 +24,4 @@ width - width of canvas.
 height - height of canvas.
 radius - blur radius.
 
-When calculation is done, use toDataURL('toDataURL') on canvas to get src of calculated image.
+When calculation is done, use toDataURL('image/png') on canvas to get src of calculated image.
