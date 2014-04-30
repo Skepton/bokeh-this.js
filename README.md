@@ -14,6 +14,10 @@ This is based on the 'StackBlur' image filtering concept but 2-dimensional.
 ![bokeh](http://pixelkultur.se/wp-content/uploads/2014/04/bokeh.jpg)
 Calculation time (My method: 600ms, Normal Convolve: 9800ms)
 
+##Demo Page
+
+[Click here to test!](http://antonlantz.nu/bokeh/)
+
 ##How-to
 
 Call blur_init(canvas,image,width,height,radius):
