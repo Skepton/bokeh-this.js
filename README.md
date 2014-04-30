@@ -23,9 +23,13 @@ Calculation time (My method: 600ms, Normal Convolve: 9800ms)
 Call blur_init(canvas,image,width,height,radius):
 
 canvas - canvas element.
+
 image - image element.
+
 width - width of canvas.
+
 height - height of canvas.
+
 radius - blur radius.
 
 When calculation is done, use toDataURL('image/png') on canvas to get src of calculated image.
