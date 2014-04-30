@@ -11,6 +11,9 @@ This is based on the 'StackBlur' image filtering concept but 2-dimensional.
 
 3. Bokeh.php demo page uses [dropzone.js](http://www.dropzonejs.com/) for image reading.
 
+![bokeh test](http://pixelkultur.se/wp-content/uploads/2014/04/bokeh_test.jpg)
+Calculation time (My method: 600ms, Normal Convolve: 9800ms)
+
 ##How-to
 
 Call blur_init(canvas,image,width,height,radius):
